@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: HPFIRSTNODERED
+  host: HPFIRSTNODERED
+  disk_quota: 1024M
+  services:
+  - HPFIRSTNODERED-cloudantNoSQLDB
+  - Language Translator-va
+  - Conversation-re
+  - Tone Analyzer-x6
